@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="sqrt3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1651151240" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1651151240">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651151240" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1651151240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/except.v"/>
+      <outfile xil_pn:name="C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/fpu.v"/>
+      <outfile xil_pn:name="C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/post_norm.v"/>
+      <outfile xil_pn:name="C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/pre_norm.v"/>
+      <outfile xil_pn:name="C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/pre_norm_fmul.v"/>
+      <outfile xil_pn:name="C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/primitives.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1651151240" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-542259374702762142" xil_pn:start_ts="1651151240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651151240" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5737591622663392220" xil_pn:start_ts="1651151240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651151240" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8586007120429544821" xil_pn:start_ts="1651151240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1651151240" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1651151240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/except.v"/>
+      <outfile xil_pn:name="C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/fpu.v"/>
+      <outfile xil_pn:name="C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/post_norm.v"/>
+      <outfile xil_pn:name="C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/pre_norm.v"/>
+      <outfile xil_pn:name="C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/pre_norm_fmul.v"/>
+      <outfile xil_pn:name="C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/primitives.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1651151243" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1246268840029372219" xil_pn:start_ts="1651151240">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

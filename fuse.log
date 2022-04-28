@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/An 2/OC/sqrt3/fpu_isim_beh.exe -prj D:/An 2/OC/sqrt3/fpu_beh.prj work.fpu work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/primitives.v" into library work
+Analyzing Verilog file "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/pre_norm_fmul.v" into library work
+Analyzing Verilog file "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/pre_norm.v" into library work
+Analyzing Verilog file "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/post_norm.v" into library work
+Analyzing Verilog file "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/except.v" into library work
+Analyzing Verilog file "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/fpu.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+ERROR:HDLCompiler:71 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/fpu.v" Line 505: error_event is not declared under prefix test
+ERROR:HDLCompiler:71 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/fpu.v" Line 492: exp_out1_co is not declared under prefix u4
+WARNING:HDLCompiler:189 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/post_norm.v" Line 566: Size mismatch in connection of port <in>. Formal port size is 27-bit while actual signal size is 0-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/post_norm.v" Line 567: Size mismatch in connection of port <in>. Formal port size is 27-bit while actual signal size is 0-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/post_norm.v" Line 579: Size mismatch in connection of port <in>. Formal port size is 24-bit while actual signal size is 0-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/post_norm.v" Line 580: Size mismatch in connection of port <in>. Formal port size is 24-bit while actual signal size is 0-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/fpu.v" Line 492: Size mismatch in connection of port <in>. Formal port size is 1-bit while actual signal size is 0-bit.
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/An 2/OC/sqrt3/fpu_isim_beh.exe" -prj "D:/An 2/OC/sqrt3/fpu_beh.prj" "work.fpu" "work.glbl" 
