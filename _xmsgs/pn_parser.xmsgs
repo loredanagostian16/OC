@@ -8,7 +8,11 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/fpu.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/test_bench/test_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/test_bench/test_top.v</arg>&quot; Line <arg fmt="%d" index="2">123</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/test_bench/sel_test.vh&apos; in file &quot;C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/test_bench/test_top.v&quot; line 123
+</arg>
 </msg>
 
 </messages>

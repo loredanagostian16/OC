@@ -1,4 +1,4 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/An 2/OC/sqrt3/fpu_isim_beh.exe -prj D:/An 2/OC/sqrt3/fpu_beh.prj work.fpu work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/An 2/OC/sqrt3/test_isim_beh.exe -prj D:/An 2/OC/sqrt3/test_beh.prj work.test work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
@@ -9,13 +9,37 @@ Analyzing Verilog file "C:/Users/Loredana/OneDrive - Universitatea Politehnica T
 Analyzing Verilog file "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/post_norm.v" into library work
 Analyzing Verilog file "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/except.v" into library work
 Analyzing Verilog file "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/fpu.v" into library work
+Analyzing Verilog file "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/test_bench/test_top.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-ERROR:HDLCompiler:71 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/fpu.v" Line 505: error_event is not declared under prefix test
-ERROR:HDLCompiler:71 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/fpu.v" Line 492: exp_out1_co is not declared under prefix u4
-WARNING:HDLCompiler:189 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/post_norm.v" Line 566: Size mismatch in connection of port <in>. Formal port size is 27-bit while actual signal size is 0-bit.
-WARNING:HDLCompiler:189 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/post_norm.v" Line 567: Size mismatch in connection of port <in>. Formal port size is 27-bit while actual signal size is 0-bit.
-WARNING:HDLCompiler:189 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/post_norm.v" Line 579: Size mismatch in connection of port <in>. Formal port size is 24-bit while actual signal size is 0-bit.
-WARNING:HDLCompiler:189 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/post_norm.v" Line 580: Size mismatch in connection of port <in>. Formal port size is 24-bit while actual signal size is 0-bit.
-WARNING:HDLCompiler:189 - "C:/Users/Loredana/OneDrive - Universitatea Politehnica Timisoara/An 2/OC (proiect)/fpu/trunk/verilog/fpu.v" Line 492: Size mismatch in connection of port <in>. Formal port size is 1-bit while actual signal size is 0-bit.
-ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed
+Completed static elaboration
+Compiling module except
+Compiling module pre_norm
+Compiling module pre_norm_fmul
+Compiling module add_sub27
+Compiling module mul_r2
+Compiling module div_r2
+Compiling module delay2(N=26)
+Compiling module delay1(N=2)
+Compiling module delay1(N=0)
+Compiling module delay1(N=7)
+Compiling module delay1(N=47)
+Compiling module delay1
+Compiling module delay1(N=22)
+Compiling module delay1(N=24)
+Compiling module delay1(N=4)
+Compiling module delay3(N=23)
+Compiling module delay1(N=5)
+Compiling module post_norm
+Compiling module delay1(N=30)
+Compiling module delay3(N=4)
+Compiling module delay1(N=49)
+Compiling module fpu
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 24 Verilog Units
+Built simulation executable D:/An 2/OC/sqrt3/test_isim_beh.exe
+Fuse Memory Usage: 37776 KB
+Fuse CPU Usage: 1140 ms
